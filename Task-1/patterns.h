@@ -23,15 +23,6 @@ public:
     virtual void send(std::string const& message, IReceiver* receiver) const = 0;
 };
 
-//class IColleague {
-//protected:
-//    IMediator* _mediator;
-//public:
-//    explicit IColleague(IMediator* mediator);
-//    virtual void send(std::string const& message) = 0;
-//    virtual void notify(std::string const& message) = 0;
-//};
-
 class IPattern {
     virtual void action() = 0;
 };
